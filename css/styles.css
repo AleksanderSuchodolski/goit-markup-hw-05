@@ -575,7 +575,7 @@ img {
   background-color: transparent;
   font-weight: 400;
   font-size: 12px;
-  line-height: 2;
+  line-height: 1.5;
   letter-spacing: 0.04em;
   color: var(--color-white);
   padding-left: 16px;
@@ -599,9 +599,12 @@ img {
   color: var(--color-white);
   border: none;
   gap: 16px;
+  min-width: 165px;
+  cursor: pointer;
 }
 .icons-email {
   fill: var(--color-white);
+  margin-left: 16px;
 }
 
 /**
