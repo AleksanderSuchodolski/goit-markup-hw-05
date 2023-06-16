@@ -748,9 +748,8 @@ img {
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: var(--color-light-slate);
-  display: flex;
   align-items: center;
-  justify-content: space-evenly;
+
 }
 .form-agreement-text a {
   color: var(--color-iris);
@@ -762,13 +761,13 @@ img {
 }
 
 .form-agreement-text span {
+  display: inline-flex;
   appearance: none;
   width: 16px;
   height: 16px;
   margin-right: 8px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 2px;
-  display: inline-flex;
   align-items: center;
   justify-content: center;
   fill: transparent;
@@ -780,8 +779,8 @@ img {
   border: none;
 }
 .check-icon {
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   display: inline-flex;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .form-agreement-btn {
@@ -801,5 +800,5 @@ img {
   margin: 0px auto;
   cursor: pointer;
   border: none;
-  
+
 }
