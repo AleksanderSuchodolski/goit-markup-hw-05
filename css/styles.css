@@ -757,6 +757,9 @@ img {
   text-decoration: underline;
   line-height: 1.33;
 }
+.privacy-policy {
+  color: var(--color-iris);
+}
 
 .form-agreement-text span {
   appearance: none;
@@ -778,8 +781,9 @@ img {
 }
 .check-icon {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
+  display: inline-flex;
 }
+
 .form-agreement-btn {
   display: block;
   min-width: 169px;
@@ -795,4 +799,7 @@ img {
   border-radius: 4px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   margin: 0px auto;
+  cursor: pointer;
+  border: none;
+  
 }
